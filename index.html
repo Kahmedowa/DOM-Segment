@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM-Segment-4</title>
+    <script src="https://kit.fontawesome.com/980463158c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Hotel Berlin</h1>
+        
+        <h2>Für Reservation</h2>
+
+    <main>
+        <form action="javascript:run()">
+
+            <label for="tagen"><i class="fa-solid fa-calendar-check"></i> Anzahl der Nächte </label>
+            <input type="number" id="tagen" min="1" required>
+
+            <label for="person"><i class="fa-solid fa-person"></i> Anzahl der Gäste</label>
+            <input type="number" id="person" min="1" required>
+
+            <label for="essen"><i class="fa-solid fa-utensils"></i> Frühstück <input type="checkbox" id="essen"></label>
+            
+            <button id="preis" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Suchen</button>
+            
+            <span id="result"></span>
+
+        </form>
+    </main>
+    </header>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

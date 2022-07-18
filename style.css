@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Image/pexels-mikhail-nilov-7820697.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    border: 2px solid bisque;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 29px 29px 5px rgba(255, 228, 196, 0.183);
+}
+main, form{
+    display: flex;
+    flex-direction: column;
+    color: bisque;
+    font-size: 1.5rem;
+}
+
+label{
+    font-size: 1.5rem;
+}
+label, input{
+    margin: 5px;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(252, 189, 112);
+    cursor: pointer;
+}
+button:active{
+    background-color: bisque;
+}
+span{
+    margin: auto;
+    color: rgb(132, 241, 150);
+}
+#essen{
+    float: right;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(245, 201, 148);
+    margin-bottom: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 130px;
+    text-transform: uppercase;
+    color: rgb(252, 189, 112);
+    text-shadow: 29px 29px 5px rgba(250, 171, 74, 0.133);
+}
