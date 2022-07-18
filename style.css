@@ -38,8 +38,11 @@ input{
     padding-left: 9px;
 }
 input:hover{
+    border: 2px rgba(0, 0, 0, 0.348) solid;
     background-color: rgb(252, 189, 112);
+    border-radius: 2px;
 }
+
 
 button{
     width: 90px;
