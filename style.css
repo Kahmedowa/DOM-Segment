@@ -34,6 +34,9 @@ label{
 label, input{
     margin: 5px;
 }
+input{
+    padding-left: 9px;
+}
 input:hover{
     background-color: rgb(252, 189, 112);
 }
@@ -52,6 +55,7 @@ button{
 button:hover{
     background-color: rgb(252, 189, 112);
     cursor: pointer;
+    width: 120px;
 }
 button:active{
     background-color: bisque;
